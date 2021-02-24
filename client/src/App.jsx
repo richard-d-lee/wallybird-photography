@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import Spring from './components/Spring.jsx';
+
 
 class App extends React.Component {
 
@@ -11,7 +13,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <label>hello world</label>
+        <Spring />
+        <label id="hello">hello world</label>
       </div>
     );
   }
